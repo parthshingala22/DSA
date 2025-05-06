@@ -1,8 +1,8 @@
 * Static Block & Constructor
 
 -> Constructor are initialize the object.For every class there will be default constructor.whenever we create object
-   Constructor will be called then object will be created
--> Constructeor having class name and methode properties
+   Constructor will be called then object will be created.
+-> Constructeor having class name and methode properties.
 
 Ex:-
 
@@ -22,27 +22,27 @@ class Demo {
     }
 }
 
-->Static Block will be created with static keyword. It will call automatically no need to call with either object or class
+-> Static Block will be created with static keyword. It will call automatically no need to call with either object or class.
 
 
 * Static methode:
 
-For static mothode no need to call with object you can directly with class name.And heare Static will add task , 
-instance or object
+-> For static mothode no need to call with object you can directly with class name.And heare Static will add task , 
+instance or object.
 
 
 * Cnditional Statement
 
 Type:
-if elase
-if else ladder
-switch case
+-if else
+-if else ladder
+-switch case
 
-conditional statement are use to print the relavent block in costant type
+-> conditional statement are use to print the relavent block in costant type.
 
 pseudo code:
 
-if else:-
+--> if else:-
   
   if(condition){
 
@@ -52,7 +52,7 @@ if else:-
   }
 
 
-else if ladder:-
+--> else if ladder:-
 
 if(){
     if{
@@ -66,7 +66,7 @@ else{
 
 }
 
-switch case:-
+--> switch case:-
 
 switch(condition){
     case 1:
@@ -78,21 +78,24 @@ switch(condition){
 
 Types:
 
-Entry Control
-exit  Control
+-Entry Control
+-exit  Control
 
 
-Entry Control:-
-For 
-while
+--> Entry Control:-
 
-Exit:-
-do while
+-For 
+-while
+
+--> Exit Control:-
+
+-do while
 
 
-Entry Control:
+--> Entry Control:
 pseudo code:-
 
+for loop:-
 for(start;end;diff){
 
 }
@@ -101,20 +104,11 @@ for(int i = 0; i<n; i++){
 
 }
 
-
+while loop:-
 start
 while(end){
  diff
 }
 
--> When we khown the range we will use for loop or prefered for loop
--> When we don't know the range we will use while loop
-
-Ex:- 
-
-class Persion{
-    int[] arr = {1,2,3,4,5};
-    for(int i=0;i<n;i++){
-        return arr[i];
-    }
-}
+-> When we khown the range we will use for loop or prefered for loop.
+-> When we don't know the range we will use while loop.
