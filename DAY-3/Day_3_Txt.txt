@@ -1,0 +1,4 @@
+*Peturn:-
+-> How many row you need to print
+-> Haw many column you need to print
+-> what to print & what to not print
