@@ -112,7 +112,7 @@ import java.util.*;
 
 class Day_4_Code{
     public static void main(String args[]){
-        int n = 56;
+        int n = 12345;
         int length = String.valueOf(n).length();
         int temp_len = length;
         int sum=0;
