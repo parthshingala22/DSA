@@ -1,0 +1,49 @@
+** Switch Case:-
+
+-> cases have to be the same type as expression, must be a  constant or literal.
+-> duplicate case values are not allowed.
+-> break is use to terminate the sequence.
+-> if break is not used, it will continue to next case.
+-> default will execute when none of the above does.
+-> if default is not at the end, put break after it.
+
+
+Syntax:-
+
+Switch(expression){
+    case :
+       Statement;
+       break;
+    default :
+        Statement;
+}
+
+        OR
+
+Switch(expression){
+    case -> Statement;
+    default -> Statement;
+}
+
+** Taranary Operator:-
+
+(Condition) ? Statement1 : Statement2;
+
+Ex:-
+
+String res = (n==5) ? ("Yes") : ("No");
+
+
+** For each loop OR Inhance For loop:-
+-> In collections we don't have index values in those setuation wehave to use for each loop
+
+ex:- 
+
+class Day_4_Code{
+    public static void main(String args[]){
+        int[] arr = {1,2,3,4,5};
+        for(int Var : arr){
+            System.out.print(Var);
+        }
+    }
+}
