@@ -9,6 +9,7 @@
 -> Declaration and defination should be outside main class.
 -> Calling should be inside main class , inside main method.
 
+
 Syntax:-
 Function Type Func Name(Paramert){
      Declaration
