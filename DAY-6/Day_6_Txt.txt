@@ -1,0 +1,8 @@
+** 2D Array 
+-> It consists of row and column.
+
+Syntax:-
+
+int[][] arr = new int[][]
+-> when declaring the array we decaler number of row and column number are optional.
+-> Each row will act as individual array.
