@@ -1,0 +1,27 @@
+* Recursions:-
+
+-> Function call itself and itself till it bit's base condition.
+-> There are two types os recursions:-
+   1) Function calling an same function call itself and itself. 
+   2) function calling an another function call itself and itself.
+-> If didn't mantation base condition is called stack overflow.
+-> Functions are use to break the code.
+
+Q:- Write the code to print factorial.
+
+-> For every recursive call element will be push into stack after reaching base condition element will be pop.
+   our Questation 5,4,3,2,1 push into stack.
+
+code:-
+  fact(n){
+    if(n==0){
+        return 1;
+    }
+    else{
+        return n*fact(n-1);
+    }
+  } 
+
+* Pass by value and Pass by function
+-> Java we don't have pointer so we can't reaching value so java have pointer.
+ 

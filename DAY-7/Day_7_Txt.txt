@@ -20,6 +20,3 @@ List<Integer> leaders = new ArrayList<>();
 -> ArrayListName is dinamicaly nature. If my Array size is 2 if i am traying to 3rd element the size will be double and it will copy previous
    element. vise-versa the array will become half.
 
-* Sub Array
-
--> 
