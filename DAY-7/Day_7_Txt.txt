@@ -1,0 +1,25 @@
+* ArrayList
+
+-> Array having fixed size. if one we decalare we can't change.
+-> Tow increase Array size dinamicaly we have to use ArrayList. 
+
+Q:- What is framework
+
+-> Framework is predefine methode and will guid the program.
+
+Syntax:-
+List<Wraper Class> ArrayListName = new ArrayList<>();
+
+Ex:-
+List<Integer> leaders = new ArrayList<>();
+
+->List is an interface and interface containce incomplite methode.
+->Wraper Class is not a premitive datatype. And it collection we have to use Wraper Class.
+-> "<>" is called Generics.
+-> ArrayListName is Class and contains complite methode.
+-> ArrayListName is dinamicaly nature. If my Array size is 2 if i am traying to 3rd element the size will be double and it will copy previous
+   element. vise-versa the array will become half.
+
+* Sub Array
+
+-> 
