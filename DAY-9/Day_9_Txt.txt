@@ -1,0 +1,19 @@
+* Recursion:-
+Q:- From a given string we have to remove character using recursion.
+
+-> Assume we are starting with two strings input and output strings. at initial output string is empty.
+
+We have few steps:-
+1) Tack the first character form the string and store in character variable
+2) Check the variable to a target character. if it matches just return output string else append character
+   next slice the string by one character.
+
+-> Whenever input string becomes empty we have to stop the recursion.
+
+Q:- From a given string skip a word and print rest of the character.
+Q:- From the given string you have to skip "he" not hello;
+
+* two pointer problem.
+ step 1-> initialize the problem accroding to the Que.
+ step 2 -> If you are starting 1st pointer at 1st index and second pointer at last index whenever both pointer 
+           crosses each other break the loop,in between do the relevant operation.
