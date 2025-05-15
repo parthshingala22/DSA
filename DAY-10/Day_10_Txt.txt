@@ -1,0 +1,40 @@
+* Strings
+-> Strings are a classes and arrays are objects the sequence of character called Strings.
+-> Strings are imutable. All the array object will be creating heap memory but Strings are created inside a heap.
+   ones string are created it will created like fixed it meance it can't modifying 
+
+Ex:-
+
+1) String a = "Hello";
+   String b = "Hello";
+   System.out.print(a==b);
+
+   -> Output is True because it's both variable point to same object or same location.
+
+2) String a = new String("Hello");
+   String b = new String("Hello");
+   System.out.print(a==b);
+
+   -> Output is False because it's both variable point to different object or different location.
+
+-> "==" is use to compare the location.
+
+-> System.out.print(a.equals(b)); -> equals are use to compare the data.
+
+-> To gate array length we are using arr.length
+-> To gate String length we are using arr.length()
+
+-> Convert String to array and than we have to reverse the string.
+
+* Subset:-
+-> For a given array we have to print possible arrays it should in a sequence but nor a continuse thas called subset.
+   And in a array if we have n number of element to get 2^n subset.
+
+
+*Backtracking
+
+ex. of recursion
+
+-> In recursion we have to only two possibilities either if or else. And in Backtracking we have multiple possibilities
+   most of the problem whenever we rech base case we have to print all the base case element
+-> Remove last element in every recursive call.
