@@ -1,0 +1,45 @@
+* Dutch natational flag 
+
+-> Intialize three pointer. l 0th index, m 0th index and h is n-1 index.
+-> while(m<h){
+    if(arr[m] == 0){
+        swap(arr[m],arr[l]);
+        m++;
+        l++;
+    }
+    else if(arr[m] == 1){
+        m++;
+    }
+    else{
+        swap(arr[m],arr[h]);
+        h--;
+    }
+}
+
+* Collectation framework
+
+1) List 
+  -> ArrayList
+  -> LinkedList
+  -> Vector
+
+2) Set
+  -> HashSet
+  -> LinkedHashSet
+  -> TreeSet
+
+3) Map
+  -> HashMap
+  -> ListHashMap
+  -> TreeMap
+
+-> List, Set, Map this are interfashes. test of all are classes.
+-> Interfashes contain incomplite methods. class contain complite methods.
+-> List is Ordered which can allow duplicates.
+-> Set is unordered which can not accepts duplicates.
+-> map contains key-value pairs.
+
+
+Syntex:-
+
+->  Set<Integer> value = new HashSet<>();
