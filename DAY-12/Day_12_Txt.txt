@@ -1,0 +1,19 @@
+Q:- Majority Element.
+
+Steps:-
+1) From the given array assume that starting index of the array it's my majority elememt.
+   From the starting elememt rest of the element if get same value inc countif not get dic count.
+
+2) counter become zero it meances still now majority elememt again select new target elememt very 
+   next element is your target element.
+
+3) At the and of for loop if counter more than zero it meances the there is a majority elememt tacking 
+   the target value count how many times repetade in an array. If counter is more then n/2 than return value.
+
+
+Q:- Maximum Points You Can Obtain from Cards. 
+
+Steps:-
+1) Create a set. run a loop tack the value from the array and push int to set using insert methode.
+2) Start iterating the set values. we have to find wether the elememt is starting or not by dic the value and 
+   checking that value is there or not If you got starting value than start compairing.
