@@ -1,0 +1,39 @@
+* Linear search:-
+-> Search the element in linear way. array length is sort use linear search. 
+
+Ex:-
+arr = {5,8,11,14,16};
+target = 14;
+for(0 to n-1){
+    if(arr[i] == target){
+        return i;
+    }
+    return n-1;
+}
+
+* Binary search:-
+-> To reduce time coplexity we use Binary search.
+-> In Binary search will get result in log(n) time coplexity
+
+Steps:-
+1) In Binary search array should be sort.
+2) initialize l pointer at 0 and r pointer at n index 
+3) Run the loop l to r. break the loop when l and r cross.
+4) Find the middle value -> l+r/2
+5) Compair middle valu to the target if it is equal return middle
+6) if middle value to smaller to the target it meance definatly will dont get the element in left portation.
+   so rigth pointer remain same and move left pointer mid + 1
+7) else move right pointer to mid - 1
+
+
+Q:- In a given array find the target element using binary search.
+
+Steps:-
+1) Initialize l pointer at 0 and r pointer at n index. 
+2) Run the loop l to r. break the loop when l and r cross.
+3) Find the middle value -> l+r/2.
+4) we have to find which half is sorted. further if arr[mid] is smaller to the arr[l] it meance right half is sorted
+   and if target lise in btw arr[l] and arr[mid] it meance element present in left half left pointer will remain same
+   right pointer mid -1 else element present in right half right pointer remain same and left pointer will move mid + 1
+5) if arr[mid] is greater arr[l], left half is sorted and if target lise in btw arr[r] and arr[mid] it meance element
+   lise in right half, right pointer remain same left pointer move mid + 1 else mid - 1.
