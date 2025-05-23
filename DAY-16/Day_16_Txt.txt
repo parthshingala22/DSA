@@ -1,0 +1,79 @@
+* Maximum product of sub arrays
+
+arr = [2,3,-6,4]
+-> Start product variable with 1.
+-> In the sub array if we have even +ve number product will be +ve.
+-> If we have odd -ve number product will be -ve.
+-> In the sub arr if we have atlist 0 so Start your product variable with 1.
+-> If we have -ve value product of prefix element will be +ve and product of suffix also +ve.
+-> Initialize the Maximum variable to (-infinity)
+
+
+* 875. Koko Eating Bananas:-
+1) Whatever Maximum value you have we have to check those value, and run the loop 0 to max.
+2) Initialize left pointer at 0 and right pointer at Maximum
+3) Get the middel value and devide array element. Get the sil valu.
+4) Add all those sil valu and compair with taget houre if it is less than or equal to elemenate right half
+   change the right pointer to the mid - 1.
+5) If the sum is greter than target elemenate left half, change the left pointer to mid + 1.
+
+
+
+* OOPs :-
+
+-> To atchive Those poperties the pre-requrement is class, object, constructor and interface.
+
+Class :- class is a virtual entity and blueprint for object.
+Object :- Instance of class.
+Constructor :- Initializing the object.
+              1) default constructor
+              -> For every class they will be default constructor.
+              2) parametrise constructor
+              -> For every class they will be have some  parameter.
+
+-> In a object we can call the method which one present in preticular class by creating object for that preticular class.
+
+*Inheritance :- 
+1) Singal inheritance
+-> The properties are inherited to child class from perent class.
+
+2) Multi-level inheritance
+-> properties are inherited to perent class from grand child class and poperties are inherited to child from perent class.
+
+3) Multiple inheritance
+-> Properties are inherited from multiple perent class.
+
+4) hierachy inheritance
+-> Properties are inherited to multiple child class.
+
+-> Using extend keyword we can inherite properties from classes.
+-> Using impliment keyword we can inherite properties from interfaces.
+
+
+*Polymorphism :- Same method appearing multiple times.
+1) method over loading
+-> In same class if we have to multiple methodes with same name method with different parameter.
+
+2) method over riding
+-> In child class if we declare the method which one present in perent class with same parameter.
+
+
+-> Main method can be overredden with different parameter.
+
+*Encapsulation :- 
+-> Binding method and data & hiding sensitive data. If the variable are privet we can't access outside the class
+   If you wan't to access using method.
+
+* Abstraction :-
+-> Hiding implimentation & showing essential detail.
+
+1) Data Abstraction :- 
+2) Functional Abstraction :-
+3) procedural Abstraction :-
+4) Control Abstraction :-
+
+-> If you wan't to use Abstraction method use abstract keyword.
+-> abstract method is incomplit method. 
+
+
+* Interface :- Containce all abstract methods. We can't create object for interface. 
