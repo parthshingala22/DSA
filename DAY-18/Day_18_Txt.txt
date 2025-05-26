@@ -1,0 +1,61 @@
+* Data Structures :-
+- Linked List
+- Stack & Queue
+- Trees
+- Graphs
+- Heap
+
+* Algorithms :-
+- Sorting
+- Searching
+- Greedy algo
+- Dynamic Programming
+
+* Time Complexcity & Space Complexcity :-
+Steps :- 
+1) Ignore Smaller
+2) Focus on worst case
+3) Ignore Constants
+
+1) List :-
+- Array List
+- Linked List
+- Hash List
+
+* Linked List :-
+-> Collection of similar type of data an random allocation in memory.
+
+Types :- 
+1) Single Linked List :-
+-> It will go in one direction.
+-> In Linked List we have to store the data as well as address.
+-> If create a class, name is Node declare two variable one is data and other is next.
+->       class Node{
+            int data;
+            Node next;
+         }
+-> we have two possibilities
+  - Single Node
+  - Last Node
+  - Inbetween Node
+-> So if you won't to create object, if won't to call constructer 
+
+1) The Node should be created with data and addres null, further you have to create a constructer which 
+   helps to create a node the data and addres null.
+   ->   Node(int data1){
+           this.data = data1;
+           this.next = null;
+        }
+2) Node(int data1, Node next1){
+    this.data = data1;
+    this.next = next1;
+   }
+
+
+2) Double Linked List :-
+-> It will go in both directions.
+
+3) Circular Linked List
+-> Head and Tail are Same.
+
+-> The mejore advatages is faster insertion and delition.

@@ -40,7 +40,7 @@ Constructor :- Initializing the object.
 2) Multi-level inheritance
 -> properties are inherited to perent class from grand child class and poperties are inherited to child from perent class.
 
-3) Multiple inheritance
+3) Multiple inheritance(not possible in java)
 -> Properties are inherited from multiple perent class.
 
 4) hierachy inheritance

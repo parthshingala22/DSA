@@ -1,0 +1,9 @@
+* Abstract :-
+
+-> If a method is incomplite, incomplite in the sance method contain three statement declaration , defination and
+   calling. If defination is missing it meance method is incomplite. For all incomplite method we have to mantion 
+   abstract keyword.
+-> If a class contain abstract method we have to mantion abstract keyword before the class.
+-> If we won't to use abstract method we have to extend that abstract class to child class. In child class we have
+   to define that abstract method and creating object for the child class than we call the abstract method.
+-> Inteface contain only incomplite method
