@@ -1,0 +1,13 @@
+* Linked List CURD Operation
+
+1) Delete
+   - Delete head node
+   - Delete tail node
+   - Delete Nth node
+   - Delete by value
+
+2) Insertion 
+   - Insert head node
+   - Insert tail node
+   - Insert at Nth node
+   - Insert by value
