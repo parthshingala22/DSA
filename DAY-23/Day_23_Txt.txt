@@ -1,0 +1,91 @@
+* Sorting :-
+
+-> Use case is to get the target output in less time.
+Ex:-
+1) Bubble Sort
+
+Time Complexity:-
+Best case    - O(n)
+Average case - O(n^2)
+Worst case   - O(n^2)
+
+-> Compaire adjasent element and it will swap and after an iteration the weigthest and litest element got to end.
+
+
+2) Selection Sort
+
+Time Complexity:-
+Best case    - O(n^2)
+Average case - O(n^2)
+Worst case   - O(n^2)
+
+
+3) Insertion Sort
+
+Time Complexity:-
+Best case    - O(n) 
+Average case - O(n^2)
+Worst case   - O(n^2)
+
+
+4) Merge Sort
+
+Time Complexity:-
+Best case    - O(n log n)
+Average case - O(n log n)
+Worst case   - O(n log n)
+
+
+5) Quick Sort
+
+Time Complexity:-
+Best case    - O(n log n)
+Average case - O(n log n)
+Worst case   - O(n^2)
+
+
+6) Count Sort
+7) Heap Sort
+8) Radix Sort
+
+
+* Stack :-
+
+-> Stack is special form of data structure. We follow Last in first out(LIFO) and which come in linear data structure.
+-> Will get all the output in constant time for all stack operation.
+-> There are lot of operation 
+   - push()    -> Adding the element in the stack
+   - pop()     -> Deleting last element in stack
+   - peek()    -> Geting top most element
+   - isEmpty() -> cheaking the stack is empty or not
+   - display() -> Printing all stack element
+   - size()    -> check size
+
+-> First define top = - 1.
+-> In the push methode just increse top = top + 1 and store the data in to stack.
+-> In the pop methode just decrese top = top -1.
+-> In the peek methode just retuen top.
+-> In the size methode just return top + 1.
+
+
+
+* Queues :- 
+
+-> Queues is data structure. We follow First in first out and it come in linear data structure.
+Types of Queues:-
+1) Single ended quque :-
+-> We can perform the operation from Single side.
+2) Double ended quque :- 
+-> We can perform the operation from both the side.
+3) Priority quque :-
+-> Which help to solv heap problems.
+    Types :-
+    1) min quque :-
+    -> Whatever order of element added in quque element will arange in assending order.
+    2) max quque :-
+    -> Whatever order of element added in quque element will arange in dessending order.
+Queues methode :-
+1) Offer methode
+2) Poll methode
+
+ 
