@@ -1,0 +1,49 @@
+* Non linear data structure :-
+1) Trees :- 
+  - Trees are acyclic graph.
+  - Tree Creation :- We have to create a node we containce data and left and right.
+  - Starting node is called root node. Every node is root node. whatever node added to the root node 
+    we call as child node. 
+Type of Trees:-
+1) N-ary Tree:-
+  - N node will be attach to the root node.
+    Ex:- Trie's
+
+
+2) Binary Tree:-
+  - At max two child can be added to the root node.
+  Ex:- Binary search tree
+       AVL & Red-Black tree
+       Segment tree
+
+  - To travel from root node to leaf node
+  - We have two way of traversal
+    1) DFS 
+    2) BFS
+
+* DFS :- 
+  - Three types of traversal
+  1) Pre Order  :- Root, Left, Right
+  2) In Order   :- Left, Root, Right
+  3) Post Order :- Left, Right, Root
+   
+1) Perfect Binary Tree :- Every lavel should be filled and Every node contain two child.
+2) Full Binary Tree :- Every node contain two child node.
+3) Complite Binary Tree :- Every lavel should fill and the node should start from left to right.
+
+* Binary search tree :-
+  - left < root < right 
+  - For BST if you print incorder taversel you get sorted value.
+
+3) AVL Tree :-
+  - AVL tree is self balanced tree. 
+  - There are four types :-
+    1) left left case
+    2) right right
+    3) left right
+    4) right left
+
+4) Segment Tree :-
+  - In an array if we wont to get sum of perticulur range we use simple for loop and get output and time cpmlexity 
+    is O(n). Will use Segment tree to get the target output in O(log n) time Complexity.
+    

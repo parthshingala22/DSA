@@ -1,0 +1,18 @@
+* Heaps :-
+  - Heap data structure will store the data in arrays it will be store by trees and the values will be arange by trees.
+  - With the help of priority quque will create heap.
+
+
+* N-ary Tree :-
+
+1) Trie's :-
+   - We have a create a node which can store 26 charector.
+   - The last node need to change flag to true.
+   - Advantages is get to faster string.
+
+   class Node{
+    int[26] data;
+    boolean flag;
+    Node next;
+   }
+
